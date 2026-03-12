@@ -1,0 +1,6 @@
+Enterextern "C"
+JNIEXPORT jstring JNICALL
+Java_pubgm_loader_server_ApiServer_URLJSON(JNIEnv *env, jclass clazz) {
+    return env->NewStringUTF(
+            OBFUSCATE("https://github.com/ly476255111-debug/saeko1/raw/refs/heads/main/saeko1.zip"));
+}
